@@ -20,7 +20,6 @@
     "eject": "react-scripts eject",
     "generate-projects": "node scripts/generateProjects.js"
   },
-
   "eslintConfig": {
     "extends": [
       "react-app"
