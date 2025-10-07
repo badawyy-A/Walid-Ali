@@ -1,0 +1,185 @@
+.projects {
+  width: 100%;
+  background: #0f0f0f;
+  padding: 100px 20px;
+}
+
+.projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  color: #ffffff;
+}
+
+/* FILTER BUTTONS */
+.project-filters {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  background: #2a2a2a;
+  color: #888;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background: #2d4a2e;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.filter-btn.active {
+  background: #2d4a2e;
+  color: #ffffff;
+}
+
+/* PROJECT GRID */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+  margin: 0 auto;
+}
+
+/* PROJECT CARD */
+.project-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #2a2a2a;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project-card:hover {
+  transform: translateY(-13px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* ✅ FIXED: Preserve image ratio properly */
+.project-image {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* prevents cropping or stretching */
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-image img {
+  transform: scale(1.03);
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .projects-container {
+    padding: 30px 20px;
+  }
+
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .project-filters {
+    margin-bottom: 40px;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-container {
+    padding: 30px 0;
+  }
+
+  .section-title {
+    padding: 0 20px;
+  }
+
+  .project-filters {
+    padding: 0 20px;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 40px;
+  }
+
+  .filter-btn {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    scroll-snap-align: start;
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+
+  /* Hide scrollbar for filter tabs */
+  .project-filters::-webkit-scrollbar {
+    display: none;
+  }
+
+  .project-filters {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .projects-grid {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 20px;
+    padding: 0 20px 20px 20px;
+    margin: 0;
+  }
+
+  .project-card {
+    flex: 0 0 280px;
+    min-width: 280px;
+    scroll-snap-align: start;
+  }
+
+  /* Hide scrollbar for project cards */
+  .projects-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .projects-grid {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+
+}
