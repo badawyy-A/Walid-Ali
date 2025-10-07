@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Walid-Ali/static/css/main.e78f3202.css",
-    "main.js": "/Walid-Ali/static/js/main.8e6087b6.js",
+    "main.css": "/Walid-Ali/static/css/main.a72176b3.css",
+    "main.js": "/Walid-Ali/static/js/main.64df57a4.js",
     "static/media/انستا.jpg": "/Walid-Ali/static/media/انستا.b9d6e9948ab12f2dfd74.jpg",
     "static/media/10.png": "/Walid-Ali/static/media/10.503c0d6afe751edfb350.png",
     "static/media/تايلند 13 ليلة.png": "/Walid-Ali/static/media/تايلند 13 ليلة.aa61d7d0b6f90ca4319c.png",
@@ -33,11 +33,11 @@
     "static/media/mee.png": "/Walid-Ali/static/media/mee.a5294fa0c351746f33b7.png",
     "static/media/WhatsApp Image 2025-08-05 at 02.41.29_65662723.jpg": "/Walid-Ali/static/media/WhatsApp Image 2025-08-05 at 02.41.29_65662723.a88826d318f9df36f251.jpg",
     "index.html": "/Walid-Ali/index.html",
-    "main.e78f3202.css.map": "/Walid-Ali/static/css/main.e78f3202.css.map",
-    "main.8e6087b6.js.map": "/Walid-Ali/static/js/main.8e6087b6.js.map"
+    "main.a72176b3.css.map": "/Walid-Ali/static/css/main.a72176b3.css.map",
+    "main.64df57a4.js.map": "/Walid-Ali/static/js/main.64df57a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e78f3202.css",
-    "static/js/main.8e6087b6.js"
+    "static/css/main.a72176b3.css",
+    "static/js/main.64df57a4.js"
   ]
 }
