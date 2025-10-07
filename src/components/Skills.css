@@ -51,7 +51,7 @@
 
 .skill-card:hover {
   transform: translateY(-5px);
-  border-color: #2d4a2e;
+  border-color: #416b43;
   box-shadow: 0 8px 20px rgba(45, 74, 46, 0.3);
 }
 
@@ -71,7 +71,7 @@
 .icon-text {
   font-size: 20px;
   font-weight: 700;
-  color: #2d4a2e;
+  color: #416b43;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 

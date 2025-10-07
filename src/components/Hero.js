@@ -47,6 +47,7 @@ const Hero = () => {
 
         <div className="hero-right">
           <div className="hero-image-container">
+            <div className='circle'></div>
             <img src={me} alt="Walid Ali" />
           </div>
         </div>

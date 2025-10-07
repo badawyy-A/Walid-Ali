@@ -25,9 +25,9 @@
 }
 
 .logo {
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 700;
-  background: linear-gradient(90deg, #2d4a2e, #3d6b3e);
+  background: linear-gradient(90deg, #2d4a2e 0%, #416b43 50%, #5a8f5b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: 1px;
@@ -50,11 +50,11 @@
 
 .nav a.active,
 .nav a:hover {
-  color: #2d4a2e;
+  color: #416b43;
 }
 
 .cta-button {
-  background: #2d4a2e;
+  background: #416b43;
   color: #ffffff;
   border: none;
   padding: 12px 28px;
@@ -67,7 +67,7 @@
 }
 
 .cta-button:hover {
-  background: #3a5f3b;
+  background: #5a8f5b;
   transform: translateY(-2px);
 }
 

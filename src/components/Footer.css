@@ -14,9 +14,9 @@
 }
 
 .footer-logo h2 {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 700;
-  background: linear-gradient(90deg, #2d4a2e, #3d6b3e);
+  background: linear-gradient(90deg, #2d4a2e 0%, #416b43 50%, #5a8f5b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
@@ -37,7 +37,7 @@
 }
 
 .footer-nav a:hover {
-  color: #2d4a2e;
+  color: #416b43;
 }
 
 .footer-social {
@@ -62,7 +62,8 @@
 .footer-social a:hover {
   background: #2a2a2a;
   color: #ffffff;
-  border-color: #2d4a2e;
+  border-color: #416b43;
+  background-color: #416b43;
 }
 
 .footer-contact {

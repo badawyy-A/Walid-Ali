@@ -36,7 +36,7 @@
 }
 
 .btn-download {
-  background: #2d4a2e;
+  background: #416b43;
   color: #ffffff;
   border: none;
   padding: 14px 28px;
@@ -52,7 +52,7 @@
 }
 
 .btn-download:hover {
-  background: #3a5f3b;
+  background: #5a8f5b;
   transform: translateY(-2px);
 }
 
